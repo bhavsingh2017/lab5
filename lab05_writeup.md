@@ -72,7 +72,28 @@ Question 8:-------TODO---------
 
 How do you include a new module, let’s say ‘sixlowpan’, into your code? Answer this in your lab writeup.
 
+Question 9:
 
+channel 20
+
+2018-10-02 00:23:04,444 - INFO #  ifconfig 4 set channel 20
+2018-10-02 00:23:04,451 - INFO # success: set channel on interface 4 to 20
+txtsnd 4 6f:f3 is_anyone_here?
+2018-10-02 00:23:05,599 - INFO #  txtsnd 4 6f:f3 is_anyone_here?
+> 2018-10-02 00:23:05,647 - INFO #  PKTDUMP: data received:
+2018-10-02 00:23:05,656 - INFO # ~~ SNIP  0 - size:  29 byte, type: NETTYPE_UNDEF (0)
+2018-10-02 00:23:05,672 - INFO # 00000000  59  45  53  3A  2D  35  30  2E  36  30  36  30  33  31  31  4E  YES:-50.6060311N
+2018-10-02 00:23:05,687 - INFO # 00000010  2C  31  36  35  2E  39  36  33  39  39  37  36  57              ,165.9639976W
+2018-10-02 00:23:05,696 - INFO # ~~ SNIP  1 - size:  12 byte, type: NETTYPE_NETIF (-1)
+2018-10-02 00:23:05,702 - INFO # if_pid: 4  rssi: 42  lqi: 242
+2018-10-02 00:23:05,705 - INFO # flags: 0x0
+2018-10-02 00:23:05,709 - INFO # src_l2addr: 6f:f3
+2018-10-02 00:23:05,714 - INFO # dst_l2addr: ed:dc
+2018-10-02 00:23:05,722 - INFO # ~~ PKT    -  2 snips, total size:  41 byte
+
+Coordinates:
+
+-50.6060311N, 165.9639976W
 
 
 
